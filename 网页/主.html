@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/yemian.css" />
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/轮播图.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/选项卡.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			window.onload=function(){
+			var form=document.getElementsByClassName('form1')[0];
+			var txt=document.getElementsByClassName('txt')[0];
+			
+			var pass=document.getElementsByClassName('pass')[0];
+			
+			form.onsubmit=function(){
+			if(txt.value==''||pass.value==''){
+				alert('请输入账号或密码')
+				return false;
+			}else{
+				if (txt.value =='admint'&&pass.value=='1234'){
+					alert('成功');
+				} else{
+					alert('失败');
+					return false;
+				}
+				}
+			}
+		}
+		
+		</script>
+		<style type="text/css">
+				
+		</style>
+	
+	</head>
+	<body>
+		<div class="body">
+			<div class="one">
+				<div id="logo"><img src="images/logo.png" /></div>
+				<div id="hang">
+					<ul class="ul1">
+						<li>
+							<a href="#" class="active">首页</a>
+						</li>
+						<li>
+							<a href="#" >关于VCARE</a>
+						</li>
+						<li>
+							<a href="产品中心.html" >产品中心</a>
+						</li>
+						<li>
+							<a href="#" >新闻中心</a>
+						</li>
+						<li>
+							<a href="服务支持.html" >服务支持</a>
+						</li>
+						<li>
+							<a href="#" >联系我们</a>
+						</li>
+					</ul>
+				</div>
+				<div class="denglu" >
+					<a  class="a1">亲,请登录 </a><span>|</span></div>
+					<form  class="form1">
+					<div class="deng">
+					<div id="de">
+						<input type="text" class="txt"  placeholder="请输入账号" />
+					</div>
+					<div id="de">
+						<input type="password" class="txt pass"   placeholder="请输入密码"/>
+					</div>
+						<input type="submit" value="登录" class="queren"/>
+					</form>
+					<div class="close">
+					<a class="guanbi" title="关闭">×</a>	
+					</div>
+			</div>
+					
+			<div class="zhuce">
+					<a  class="a2">免费注册</a>
+				<div class="zhu">
+					<form >
+					<input type="text" class="zhu1" value="" placeholder="请输入账号" />
+					<input type="password" class="zhu2" value=""  placeholder="请输入密码"/><br />
+					<input type="submit"  value="立即注册" class="zhu3"/>
+					</form>
+					<div class="close">
+					<a class="guanbi" title="关闭">×</a>	
+					</div>
+				</div>
+			</div>
+			
+			<div class="one1" >
+				<div id="hang1">
+						<ul class="hang2">
+							<li><a href="#" class="ll">首页</a></li>
+							<li><a href="#"  id="c1">关于VCARE</a></li>
+							<li><a href="产品中心.html"   id="c1">产品中心</a></li>
+							<li><a href="#"  id="c1">新闻中心</a></li>
+							<li><a href="服务支持.html"  id="c1">服务支持</a></li>
+							<li><a href="#" id="c1">联系我们</a></li>
+						</ul>
+				</div>
+			</div>
+			
+			<div class="two" >
+				<div id="ig">
+					<img src="images/imglun0.jpg" class="img" />
+					<ul class="ul2">
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="three">
+				<div id="thimg">
+					<div id="img1">
+						<img src="images/img_001.png" class="img1 " />
+					</div>
+					<div id="img2">
+						<img src="images/img_003.png" class="img2 im " />
+					</div>
+					<div id="img4">
+						<img src="images/img_004.png" class="img4 im" />
+					</div>
+					<div id="img5">
+						<img src="images/img_005.png" class="img5 im" />
+					</div>
+					<div id="img3">
+						<img src="images/img_002.png" class="img3 " />
+					</div>
+				</div>
+			</div>
+			<div class="four">
+				<div class="four1">
+					<div id="wai">
+						<ul class="ul3">
+							<li class="sp1">公司动态</li>
+							<li>行业新闻</li>
+							<li>产权知识</li>
+							<li>服务支持</li>
+						</ul>
+					</div>
+					<div class="nei">
+						<ul class="ul4">
+							<li><img class="ik" src="images/img_006.jpg" />
+								<div class="ne">
+									<div class="nei1">
+										<span class="sp2"> <b>23</b></span>
+									</div>
+									<div class="nei2">
+										<span class="sp3">2017-05</span>
+									</div>
+									<div class="nei3">
+										<span class="sp4">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+									</div>
+									<div class="nei4">3月2日卫华报告大厅洋溢着热烈的气氛，200多人的大厅座无虚席， 河<br /> 南 万泰、卫华起重、洛阳大华机械的销售精英和技术人员进行了</div>
+									<div class="nei5">
+										<a>查看详情</a>
+									</div>
+									<div class="nei6">
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+									</div>
+
+								</div>
+								<div></div>
+								<div></div>
+							</li>
+
+							<li><img class="ik" src="images/img_006.jpg" />
+								<div class="ne">
+									<div class="nei1">
+										<span class="sp2"> <b>23</b></span>
+									</div>
+									<div class="nei2">
+										<span class="sp3">2017-05</span>
+									</div>
+									<div class="nei3">
+										<span class="sp4">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+									</div>
+									<div class="nei4">3月2日卫华报告大厅洋溢着热烈的气氛，200多人的大厅座无虚席， 河<br /> 南 万泰、卫华起重、洛阳大华机械的销售精英和技术人员进行了</div>
+									<div class="nei5">
+										<a>查看详情</a>
+									</div>
+									<div class="nei6">
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+									</div>
+
+								</div>
+								<div></div>
+								<div></div></li>
+							<li><img class="ik" src="images/img_006.jpg" />
+								<div class="ne">
+									<div class="nei1">
+										<span class="sp2"> <b>23</b></span>
+									</div>
+									<div class="nei2">
+										<span class="sp3">2017-05</span>
+									</div>
+									<div class="nei3">
+										<span class="sp4">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+									</div>
+									<div class="nei4">3月2日卫华报告大厅洋溢着热烈的气氛，200多人的大厅座无虚席， 河<br /> 南 万泰、卫华起重、洛阳大华机械的销售精英和技术人员进行了</div>
+									<div class="nei5">
+										<a>查看详情</a>
+									</div>
+									<div class="nei6">
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+									</div>
+
+								</div>
+								<div></div>
+								<div></div></li>
+							<li><img class="ik" src="images/img_006.jpg" />
+								<div class="ne">
+									<div class="nei1">
+										<span class="sp2"> <b>23</b></span>
+									</div>
+									<div class="nei2">
+										<span class="sp3">2017-05</span>
+									</div>
+									<div class="nei3">
+										<span class="sp4">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+									</div>
+									<div class="nei4">3月2日卫华报告大厅洋溢着热烈的气氛，200多人的大厅座无虚席， 河<br /> 南 万泰、卫华起重、洛阳大华机械的销售精英和技术人员进行了</div>
+									<div class="nei5">
+										<a>查看详情</a>
+									</div>
+									<div class="nei6">
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+										<div class="wen1">
+											<div class="nei1 neo"><span class="sp5 nei0"> <b>23</b></span></div>
+											<div class="nei2 neo"><span class="sp6 ">2017-05</span></div>
+										</div>
+										<div class="zi">
+											<span class=" s1">
+							河南万泰、卫华起重、洛阳大华矿山机械产品培训交...</span>
+											<div class=" s2">2014年12月20日在这缤纷的隆冬时节，河南万泰机械厂区里洋溢着热烈的气氛 ，今天卫华集团和河南万泰战略合作签约 <br />仪式 在河南万泰公司厂区内隆重举行，“心手相连、共赢未来”，此次签约仪式正式拉开了卫华集团和河南万泰机械</div>
+										</div>
+									</div>
+
+								</div>
+								<div></div>
+								<div></div></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="five">
+				<div class="fiv1">
+				<span class="sp7">	版权所有 © 2017-2027 威喀尔国际 粤ICP05138723号</span>
+				</div>
+			</div>
+			<!--<div class="six"></div>-->
+		</div>
+		
+		<div class="fanhui" >
+			返回
+		</div>
+
+	</body>
+
+</html>
